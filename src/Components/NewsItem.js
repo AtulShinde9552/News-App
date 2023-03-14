@@ -6,7 +6,7 @@ const NewsItem = (props) => {
   return (
     <div>
       <div className="card" style={{ margin: "10px 0px" }}>
-        <img className="card-img-top" src={!imageurl ? "https://images.indianexpress.com/2023/02/horoscope_2-7.jpg" : imageurl} alt="Card image cap" />
+        <img className="card-img-top" src={!imageurl ? "https://images.indianexpress.com/2023/02/horoscope_2-7.jpg" : imageurl} alt='' />
         <div className="card-body bg-dark text-light px-3">
           <h5 className="card-title">{title}...</h5>
           <h6 class="badge bg-danger">{source}</h6>
